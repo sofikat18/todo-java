@@ -1,0 +1,13 @@
+
+public class Pentagono extends FigurasGeometricas {
+	
+	float apotema = 0;
+	
+public float calcularArea(float apotema) {
+		
+		area = perimetro * apotema;
+		
+		return area;
+	}
+
+}

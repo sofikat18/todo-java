@@ -1,0 +1,16 @@
+
+public class Principal {
+	
+	static int numerador = 10;
+	static int denominador = 0;
+	static float division;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Antes de la división");
+		division = numerador / denominador;
+		System.out.println("Después de la división");
+	}
+
+}

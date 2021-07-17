@@ -1,0 +1,14 @@
+
+public class Triangulo extends FigurasGeometricas {
+	
+	float b = 5;
+	float h = 8;
+	
+public float calcularArea() {
+		
+		area = b  * h / 2;
+		
+		return area;
+	}
+
+}

@@ -1,0 +1,13 @@
+
+public class FigurasGeometricas {
+	
+	float area = 0;
+	
+	public float calcularArea() {
+		
+		area = b  * h;
+		
+		return area;
+	}
+
+}

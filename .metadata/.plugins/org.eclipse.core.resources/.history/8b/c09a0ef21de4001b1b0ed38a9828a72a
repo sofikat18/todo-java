@@ -1,0 +1,23 @@
+
+public class FigurasGeometricas {
+	
+	float area = 0;
+	float perimetro = 0;
+	float base = 0;
+	float h = 0;
+	int lados = 0;
+	
+	public float calcularArea(float b, float h) {
+		
+		area = base  * h;
+		
+		return area;
+	}
+
+	public float calcularPerimetro() {
+		perimetro = b * lados;
+		
+		return perimetro;
+	}
+	
+}
